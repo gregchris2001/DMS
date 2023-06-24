@@ -1,11 +1,16 @@
 body {
     font-family: 'Questrial', sans-serif;
+    background-color: #F6F8FB;
+}
+
+.user {
+    margin-left: 77%;
 }
 
 .header {
     font-size: 2.7rem;
     line-height: 1.5;
-    padding: 15% 0% 5% 0%;
+    padding: 3% 0% 5% 0%;
 
 }
 
@@ -27,7 +32,7 @@ body {
 .list-box {
     height: 48px;
     width: 550px;
-    padding: 10%0%0%0%;
+    padding-top: 3%;
 }
 
 .mb-1 {
