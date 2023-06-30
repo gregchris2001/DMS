@@ -1,0 +1,266 @@
+h2 {
+    padding-bottom: 15px
+}
+
+h3 {
+    padding-top: 50px;
+    padding-bottom: 15px
+}
+
+.hr1 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 70px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.hr2 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 143px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.hr3 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 98px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.hr4 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 105px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.hr5 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 102px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.hr6 {
+    border: 2px dotted #ffffff;
+    border-bottom: none;
+    width: 37px;
+    margin-bottom: 3px;
+    margin-top: 0px;
+}
+
+.nav-box {
+    margin-right: 40px;
+}
+
+.nav-bg {
+    background: #FFF;
+    box-shadow: 0px 4px 16px 0px rgba(89, 85, 84, 0.15);
+}
+
+.sidenav {
+    height: 150%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 80px;
+    text-align: center;
+}
+
+.sidenav a {
+    padding: 6px 16px 6px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:focus {
+    color: #B11F24;
+}
+
+.svg {
+    margin-left: 20px;
+}
+
+.svg a:focus {
+    color: #B11F24;
+}
+
+.texmain {
+    margin-left: 200px;
+    /* Same as the width of the sidenav */
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+.knm {
+    margin-right: 30px;
+}
+
+.bt-down {
+    margin: 25px 0px 25px;
+
+}
+
+.warehouse {
+    margin-right: 3%;
+}
+
+.bell {
+    margin-right: 3%;
+}
+
+.card-btn {
+    padding: 0px 5px;
+}
+
+.font {
+    margin-left: 3px;
+}
+
+.user {
+    margin-right: 3px;
+}
+
+.font-user {
+    margin-top: 15px;
+}
+
+.search {
+    width: 476px;
+}
+
+.card1 {
+    border-radius: 8px;
+    background: linear-gradient(134deg, #CD2F34 1.04%, #CD2F34 3.64%, #CD2F34 3.65%, #CD2F34 21.55%, #D3373C 46.88%, #D3393E 51.04%, #D43A3F 55.21%, #D63D42 63.02%, #DE494E 74.48%, #DE494E 76.56%, #DE494E 82.29%, #DE494E 86.98%, #DE494E 90.63%, #DE494E 97.40%, #DE494E 97.41%);
+    box-shadow: 0px 24px 56px -16px rgba(215, 61, 66, 0.70);
+}
+
+.card2 {
+    border-radius: 8px;
+    background: linear-gradient(134deg, #466AE8 0%, #3256D4 78.21%);
+    box-shadow: 0px 24px 56px -16px rgba(64, 99, 223, 0.70);
+}
+
+.card-text1 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.card-text2 {
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.card-text3 {
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: 3px;
+    position: relative;
+}
+
+.user-img {
+    margin: 20px 0px 10px 0px;
+}
+
+.svg-img {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 4% 37% 0% 37%;
+}
+
+.card-title {
+    text-align: center;
+    margin-left: 100px;
+}
+
+.card-font {
+    margin-left: 90px;
+}
+
+.card-section {
+    padding: 75px 50px 115px 250px;
+
+}
+
+.card-size {
+    height: 185px;
+    width: 730px;
+}
+
+.btn1 {
+    border-radius: 4px;
+    background-color: #DEE0E4;
+}
+
+.dot {
+    color: #0DD83A;
+}
+
+.view-all {
+    float: right;
+}
+
+.p-text {
+    color: #000;
+}
+
+/* .card-size {
+    width: 576px;
+    height: 184px;
+} */
+
+.card-style1 {
+    border-radius: 4px;
+    border: 0.5px solid #1FB19F;
+    background: #FFF;
+    box-shadow: 0px 6px 16px -3px rgba(31, 177, 159, 0.25);
+}
+
+.card-style2 {
+    border-radius: 4px;
+    border: 0.5px solid #1F51B1;
+    background: #FFF;
+    box-shadow: 0px 6px 16px -3px rgba(31, 81, 177, 0.25);
+}
+
+.card-style3 {
+    border-radius: 4px;
+    border: 0.5px solid #7A1FB1;
+    background: #FFF;
+    box-shadow: 0px 6px 16px -3px rgba(122, 31, 177, 0.25);
+}
+
+.card-style4 {
+    border-radius: 4px;
+    border: 0.5px solid #B11F5C;
+    background: #FFF;
+    box-shadow: 0px 6px 16px -3px rgba(177, 31, 92, 0.25);
+}
+
+.big-card {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 16px 32px -8px rgba(9, 11, 23, 0.15);
+}
