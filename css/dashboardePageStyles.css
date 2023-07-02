@@ -205,8 +205,9 @@ h3 {
 }
 
 .card-size {
-    height: 185px;
-    width: 730px;
+    /* height: 185px;width: 730px; */
+    margin-bottom: 30px;
+
 }
 
 .btn1 {
