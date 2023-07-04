@@ -24,16 +24,71 @@
 </head>
 
 <body>
+    <div class="wrapper">
     <section id="top-navbar">
-        <nav class="navbar navbar-expand-lg fixed-top navbar-light nav-bg">
+        <nav id="sidebar">
+        
+            <ul class="list-unstyled components">
+        
+                <li class="active">
+                    <a href="#submenu2" data-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src="assets\Home.svg" alt="Home-img" class="svg">
+                        <p>Home</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=" #submenu2" data-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src=" assets\Inventory.svg" alt="Inventory-img" class="svg">
+                        <p>Inventory</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#submenu2" data-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src="assets\Transactions.svg" alt="Transactions-img" class="svg">
+                        <p>Transactions</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#submenu2" data-bs-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src="assets\Van Inventory.svg" alt="Inventory-img" class="svg">
+                        <p>Van Inventory</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=" #submenu2" data-bs-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src="assets\Customers.svg" alt="Customers-img" class="svg">
+                        <p>Customers</p>
+                </li>
+                <li>
+                    <a href=" #submenu2" data-bs-toggle="collapse" class="nnav-link px-lg-5 align-middle">
+                        <img src="assets\Reports.svg" alt="Reports-img" class="svg">
+                        <p>Reports</p>
+                    </a>
+                </li>
+                <li>
+                    <a href=" #submenu2" data-bs-toggle="collapse" class="nav-link px-lg-5 align-middle">
+                        <img src="assets\Settings.svg" alt="Settings-img" class="svg">
+                        <p>Settings</p>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+            <nav class="navbar navbar-expand-lg fixed-top navbar-light nav-bg">
             <div class="container-fluid">
-                <a href=""><img src="assets\Logo.svg" alt="logo-img"></a>
+                <div class="navbar-header">
+                    <button type="button" id="sidebarCollapse" class="navbar-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+                    <a href=""><img src="assets\Logo.svg" alt="logo-img"></a>
+                <input class="me-2 search" type="search" placeholder="Search for anything" aria-label="Search">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <input class="me-2 search" type="search" placeholder="Search for anything" aria-label="Search">
                 <div class="collapse navbar-collapse nav-box" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item dropdown ">
@@ -45,9 +100,6 @@
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <li><a class="dropdown-item" href="#">Action</a></li>
                                 <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li>
-                                    <hr class="dropdown-divider">
-                                </li>
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
@@ -65,25 +117,6 @@
                 </div>
             </div>
         </nav>
-    </section>
-
-    <section id="side-navbar">
-        <div class="sidenav">
-            <img src="assets\Home.svg" alt="Home-img" class="svg">
-            <a href="#">Home</a>
-            <img src="assets\Inventory.svg" alt="Inventory-img" class="svg">
-            <a href="#">Inventory</a>
-            <img src="assets\Transactions.svg" alt="Transactions-img" class="svg">
-            <a href="#">Transactions</a>
-            <img src="assets\Van Inventory.svg" alt="Inventory-img" class="svg">
-            <a href="#">Van Inventory</a>
-            <img src="assets\Customers.svg" alt="Customers-img" class="svg">
-            <a href="#">Customers</a>
-            <img src="assets\Reports.svg" alt="Reports-img" class="svg">
-            <a href="#">Reports</a>
-            <img src="assets\Settings.svg" alt="Settings-img" class="svg">
-            <a href="#">Settings</a>
-        </div>
     </section>
 
     <section class="card-section">
@@ -269,7 +302,19 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <!-- Bootstrap Js CDN -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+        <script type="text/javascript">
+            $(document).ready(function () {
+                $('#sidebarCollapse').on('click', function () {
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
+                });
+            });
+        </script>
+        </div>
 </body>
 
 </html>
